@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.section{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 5%;
+}
+
+header, nav{
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+header > h1{
+    font-size: 30px;
+    color: #00dd00;
+}
+
+nav{
+    background-color: #00dd00;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main > div{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* (Potevo mettere div > h1 ma cosi mi sembra di essere più preciso) */
+main h1{
+    display: inline-block;
+    font-size: 25px;
+}
+
+/* Altezza e Spigoli Barre Carica */
+/* (Potevo mettere div > div ma cosi mi sembra di essere più preciso) */
+.gino > div, .mike > div, .fede > div{
+    height: 25px;
+    border-radius: 5px;
+}
+
+/* Barra Monopattino Gino22 */
+.gino > div{
+    width: 350px;
+    background-color: #f5b453;
+}
+
+/* Barra Monopattino Mike24 */
+.mike > div{
+    width: 550px;
+    background-color: #1ec31e;
+}
+
+/* Barra Monopattino Fede154 */
+.fede > div{
+    width: 150px;
+    background-color: #be4141;
+}
